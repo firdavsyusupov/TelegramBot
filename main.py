@@ -1,6 +1,7 @@
 from datetime import datetime
 import telebot
 import config
+import random
 
 bot = telebot.TeleBot(config.TOKEN)
 # ID users
@@ -17,12 +18,7 @@ joinedFile.close()
 # for data in logFile:
 #     logUsers.add(data.strip())
 # logFile.close()
-# def variables():
-#     id = message.from_user.id
-#     name = message.from_user.first_name
-#     lastname = message.from_user.last_name
-#     username = message.from_user.username
-#     time = datetime.now()
+
 
 # GREETING
 @bot.message_handler(commands=['start'])
@@ -39,6 +35,7 @@ def welcome(message):
         joinedFile.write(str(message.chat.id
                              ) + '\n')
         joinedUsers.add(message.chat.id)
+
     id = message.from_user.id
     name = message.from_user.first_name
     lastname = message.from_user.last_name
@@ -82,12 +79,14 @@ def send_welcome(message):
 @bot.message_handler(commands=['sendnewpost'])
 def newpost(message):
     for i in joinedUsers:
-        au = open('info/7.ogg', 'rb')
+        au = open('info/start.ogg', 'rb')
+        #list_file = open['info/1.ogg', 'info/2.ogg','info/3.ogg','info/4.ogg','info/5.ogg']
+        #ran = random.choice(list_file)
         try:
             bot.send_audio(i, au,
-                           " Двигайся дальше 🙏🏼☝️\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(
+                           "Тестовое аудио для обновления бота\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПросим прощения за беспокойства 🥺".format(
                                message.from_user, bot.get_me()), parse_mode='html')
-            print("Сообщение успешно отправлено_5", message.from_user.id, message.from_user.first_name, message.from_user.last_name, message.from_user.username)
+            print("Сообщение успешно отправлено", message.chat.id, message.chat.first_name, message.chat.last_name, message.chat.username)
         except:
             pass
     id = message.from_user.id
@@ -97,7 +96,7 @@ def newpost(message):
     time = datetime.now()
 
     logFile = open("log.txt", "a")
-    logFile.write(f"{time} | Пользователь : @{id} {name} {lastname} {username} \n ")
+    logFile.write(f"{time} | Пользователь отправил сообщение: @{id} {name} {lastname} {username} \n ")
     logFile.close()
 
 

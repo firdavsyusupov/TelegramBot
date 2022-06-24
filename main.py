@@ -75,16 +75,16 @@ def send_welcome(message):
 
 
 # New post for users_____________________________________________________________________
-# SEND VOICE №5
+# SEND VOICE №8
 @bot.message_handler(commands=['sendnewpost'])
 def newpost(message):
     for i in joinedUsers:
-        au = open('info/start.ogg', 'rb')
+        au = open('info/8.ogg', 'rb')
         #list_file = open['info/1.ogg', 'info/2.ogg','info/3.ogg','info/4.ogg','info/5.ogg']
         #ran = random.choice(list_file)
         try:
             bot.send_audio(i, au,
-                           "Тестовое аудио для обновления бота\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПросим прощения за беспокойства 🥺".format(
+                           "Живи настоящим!\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПросим прощения за беспокойства 🥺".format(
                                message.from_user, bot.get_me()), parse_mode='html')
             print("Сообщение успешно отправлено", message.chat.id, message.chat.first_name, message.chat.last_name, message.chat.username)
         except:
@@ -96,7 +96,7 @@ def newpost(message):
     time = datetime.now()
 
     logFile = open("log.txt", "a")
-    logFile.write(f"{time} | Пользователь отправил сообщение: @{id} {name} {lastname} {username} \n ")
+    logFile.write(f"{time} | Пользователь отправил сообщение №8: @{id} {name} {lastname} {username} \n ")
     logFile.close()
 
 

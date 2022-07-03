@@ -5,7 +5,7 @@ import random
 
 bot = telebot.TeleBot(config.TOKEN)
 # ID users
-joinedFile = open("joined.txt", "r")
+joinedFile = open("log/up/joined.txt", "r")
 joinedUsers = set()
 for line in joinedFile:
     joinedUsers.add(line.strip())
@@ -13,7 +13,7 @@ joinedFile.close()
 
 
 # Log users(ID,FIRST_NAME,LAST_NAME,USERNAME)
-# logFile = open("log.txt", "r")
+# logFile = open("log/up/log.txt", "r")
 # logUsers = set()
 # for data in logFile:
 #     logUsers.add(data.strip())
@@ -31,7 +31,7 @@ def welcome(message):
           message.from_user.last_name, message.from_user.username)
 
     if not str(message.chat.id) in joinedUsers:
-        joinedFile = open("joined.txt", "a")
+        joinedFile = open("log/up/joined.txt", "a")
         joinedFile.write(str(message.chat.id
                              ) + '\n')
         joinedUsers.add(message.chat.id)
@@ -42,11 +42,11 @@ def welcome(message):
     username = message.from_user.username
     time = datetime.now()
 
-    logFile = open("log.txt", "a")
+    logFile = open("log/up/log.txt", "a")
     logFile.write(f"{time} | Пользователь запустил бота: {id} {name} {lastname} {username} \n ")
     logFile.close()
 
-    usersData = open("users.txt", "a")
+    usersData = open("log/up/users.txt", "a")
     usersData.write(f"{time} | ID: {id} | Name: {name} | Last name: {lastname} | Username: @{username} \n")
     usersData.close()
 
@@ -67,7 +67,7 @@ def send_welcome(message):
     time = datetime.now()
 
     # if not str(message.from_user.id) and str(message.from_user.first_name) in logUsers:
-    logFile = open("log.txt", "a")
+    logFile = open("log/up/log.txt", "a")
     logFile.write(f"{time} | Пользователь просматривает информацию: {id} {name} {lastname} {username} \n ")
     # logUsers.add(message.form_user.id)
     logFile.close()
@@ -75,16 +75,16 @@ def send_welcome(message):
 
 
 # New post for users_____________________________________________________________________
-# SEND VOICE №15
+# SEND VOICE №18
 @bot.message_handler(commands=['sendnewpost'])
 def newpost(message):
     for i in joinedUsers:
-        au = open('info/16.ogg', 'rb')
+        au = open('info/00.ogg', 'rb')
         #list_file = open['info/1.ogg', 'info/2.ogg','info/3.ogg','info/4.ogg','info/5.ogg']
         #ran = random.choice(list_file)
         try:
             bot.send_audio(i, au,
-                           "Хорошо?\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(
+                           "Привет, как ты?\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(
                                message.from_user, bot.get_me()), parse_mode='html')
             print("Сообщение успешно отправлено", message.chat.id, message.chat.first_name, message.chat.last_name, message.chat.username)
         except:
@@ -95,14 +95,14 @@ def newpost(message):
     username = message.from_user.username
     time = datetime.now()
 
-    logFile = open("log.txt", "a")
+    logFile = open("log/up/log.txt", "a")
     logFile.write(f"{time} | Пользователь отправил сообщение №13: @{id} {name} {lastname} {username} \n ")
     logFile.close()
 
 
 # ________________________________________________________________________________________
 
-# CHECK BOT ↓ TEST BOT ↓ TEST CMD ↓ TEST ZONE ↓ TEST CODE ↓ CHECK BOT ↓ TEST BOT ↓ TEST CMD ↓ TEST ZONE ↓ TEST CODE
+# CHECK BOT ↓ TEST BOT ↓ TEST CMD ↓ TEST ZONE ↓ TEST CODE ↓ CHECK BOT ↓ TEST BOT ↓ TEST CMD ↓ TEST ZONE ↓ TEST  иCODE
 @bot.message_handler(commands=['testbot'])
 def testbot(message):
     bot.send_message(message.chat.id, "Бот работает :)\n")
@@ -113,8 +113,7 @@ def testbot(message):
 def infopost(message):
     for i in joinedUsers:
         bot.send_message(i, "Прошу всем".format(message.from_user), parse_mode='html')
-        print("Сообщение успешно отправлено_", message.from_user.id, message.from_user.first_name,
-              message.from_user.last_name, message.from_user.username)
+        print("Сообщение успешно отправлено_", message.from_user.id, message.from_user.first_name, message.from_user.last_name, message.from_user.username)
 
 @bot.message_handler(commands = ['asendmessage'])
 def yousendmessage(message):

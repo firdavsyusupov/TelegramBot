@@ -40,11 +40,15 @@ def buttons(message):
     if message.chat.type == 'private':
         if message.text == '💳 Uzcard':
             bot.send_message(message.chat.id, '💳 Наш Uzcard:\n\n<code>626272000327453</code> - карта\n\nСпасибо большое за донат 🫂\n\nПосле отправки, напишите мне в ЛС— @firdavs_yusupov'.format(message.from_user), parse_mode='html')
+
         elif message.text == "📲 Click":
-            qr_click = open('info/foto/click.jpg', 'rb')
-            bot.send_photo(message.chat.id, qr_click, "Чтобы удобно перевести деньги через CLICK нам на карту, Вы можете:\n- отсканировать QR-код приложением CLICK Evolution\n- отправить это сообщение в Telegram-бот @clickuz\n- пройти по ссылке ниже\n\nПолучатель: YUSUPOV FIRDAVS\nМоя карта: IPTK***9160 (UZCARD)\n\nhttps://my.click.uz/clickp2p/3FF1A5157E7FBCF80F8540365C8E3792972D6C73F1B028793D8EDA8D41450611")
+            qr_click = open('info/image/click.jpg', 'rb')
+            bot.send_photo(message.chat.id, qr_click, "Чтобы удобно перевести деньги через CLICK нам на карту, Вы можете:\n- отсканировать QR-код приложением CLICK Evolution\n- отправить это сообщение в Telegram-бот @clickuz\n- пройти по ссылке ниже\n\nПолучатель: YUSUPOV FIRDAVS\nМоя карта: AAB***7453 (UZCARD)\n\nhttps://my.click.uz/clickp2p/F907B946693836900BD2EA6E807F9AA68BE12EBB46F1866D0EB96661599623DD")
 
             #bot.send_message(message.chat.id, '🗃 Projects', reply_markup = markup)
+
+        elif message.text == '🔝 Other':
+            bot.send_message(message.chat.id, '<b>Упс...</b> 😬/n/nЕсли Вы не нашли подходящий способ для перевода, напишите мне в ЛС — <a href="https://t.me/firdavs_yusupov">@firdavs_yusupov</a>'.format(message.from_user), parse_mode='html')
 
 
 # RUN

@@ -75,16 +75,16 @@ def send_welcome(message):
 
 
 # New post for users_____________________________________________________________________
-# SEND VOICE №18
+# SEND VOICE №21
 @bot.message_handler(commands=['sendnewpost'])
 def newpost(message):
     for i in joinedUsers:
-        au = open('info/00.ogg', 'rb')
+        au = open('info/22.ogg', 'rb' )
         #list_file = open['info/1.ogg', 'info/2.ogg','info/3.ogg','info/4.ogg','info/5.ogg']
         #ran = random.choice(list_file)
         try:
             bot.send_audio(i, au,
-                           "Привет, как ты?\n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(
+                           "Тебе не кажется 👌 \n\n<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(
                                message.from_user, bot.get_me()), parse_mode='html')
             print("Сообщение успешно отправлено", message.chat.id, message.chat.first_name, message.chat.last_name, message.chat.username)
         except:

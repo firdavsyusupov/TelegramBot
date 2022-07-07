@@ -51,6 +51,12 @@ def buttons(message):
             bot.send_message(message.chat.id, '<b>Упс...</b> 😬/n/nЕсли Вы не нашли подходящий способ для перевода, напишите мне в ЛС — <a href="https://t.me/firdavs_yusupov">@firdavs_yusupov</a>'.format(message.from_user), parse_mode='html')
 
 
+
 # RUN
-if __name__ == '__main__':
-    bot.polling(none_stop=True)
+while True:
+    try:
+        if __name__ == '__main__':
+            bot.polling(none_stop=True)
+    except:
+        continue
+    break

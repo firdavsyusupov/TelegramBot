@@ -1,0 +1,4 @@
+import telebot
+
+
+class VIP:

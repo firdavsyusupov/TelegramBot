@@ -22,18 +22,25 @@ podcastFile.close()
 # GREETING
 @bot.message_handler(commands=['start'])
 def welcome(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard = True)
+    button_vip = '😎VIP'
+    button_donate = '💸Donate'
+    markup.add(button_vip, button_donate)
+
     au = open('info/start.ogg', 'rb')
-    bot.send_audio(message.chat.id, au,
-                   "{0.first_name}, если ты услышал(а) это приветствие, значит начиная со следующего, ты будешь ежедневно получать обещанные послания в формате голосовых сообщений 🎧\n\n<b>Как только я запишу что-то новое, я обязательно тебе отправлю</b> 😊".format(
-                       message.from_user, bot.get_me()), parse_mode='html')
-    print("Пользователь запустил бота:", message.from_user.id, message.from_user.first_name,
-          message.from_user.last_name, message.from_user.username)
+    bot.send_audio(message.chat.id, au, "{0.first_name}, если ты услышал(а) это приветствие, значит начиная со следующего, ты будешь ежедневно получать обещанные послания в формате голосовых сообщений 🎧\n\n<b>Как только я запишу что-то новое, я обязательно тебе отправлю</b> 😊".format(message.from_user, bot.get_me()), parse_mode='html', reply_markup = markup)
+    print("Пользователь запустил бота:", message.from_user.id, message.from_user.first_name,message.from_user.last_name, message.from_user.username)
 
     if not str(message.chat.id) in joinedUsers:
         joinedFile = open("log/up/joined.txt", "a")
-        joinedFile.write(str(message.chat.id
-                             ) + '\n')
+        joinedFile.write(str(message.chat.id) + '\n')
         joinedUsers.add(message.chat.id)
+    # if not str(message.chat.id) in podcastUsers:
+    #     podcastFile = open('log/podcast/id.txt','a')
+    #     podcastFile.write(str(message.chat.id)+'\n')
+    #     podcastUsers.add(message.chat.id)
+
+
     global id
     global name
     global lastname
@@ -44,6 +51,7 @@ def welcome(message):
     lastname = message.from_user.last_name
     username = message.from_user.username
     time = datetime.now()
+
     logFile = open("log/up/log.txt", "a")
     logFile.write(f"{time} | Пользователь запустил бота: {id} {name} {lastname} {username} \n ")
     logFile.close()
@@ -51,10 +59,10 @@ def welcome(message):
     usersData.write(f"{time} | ID: {id} | Name: {name} | Last name: {lastname} | Username: @{username} \n")
     usersData.close()
 
-    markup = types.ReplyKeyboardMarkup(resize_keyboard = True)
-    button_vip = '😎VIP'
-    button_donate = '💸Donate'
-    markup.add(button_vip, button_donate)
+
+
+
+
 
 
 # INFO
@@ -89,7 +97,7 @@ def send_key(message):
 
 @bot.message_handler(commands=['podcast'])
 def podacs_start(message):
-    bot.send_message(message.chat.id, 'Вы еще не активировали под')
+    bot.send_message(message.chat.id, 'Вы еще не активировали код')
 
 # New post for users_____________________________________________________________________
 # SEND VOICE №25
@@ -116,13 +124,22 @@ def newpost(message):
     num += 1
     print(f'Следующий номер сообщений №{num}')
 
+
+
+
 @bot.message_handler(content_types=['text'])
 def buttons(message):
     if message.chat.type == 'private':
         if message.text == '😎VIP':
-            pass
+            for i in podcastUsers:
+                if message.chat.id == i:
+                    bot.send_message(message.chat.id, 'Ваш аккаунт уже зарегестрирован!')
+                else:
+                    bot.send_message(message.chat.id, 'У вас еще не имеется премиум аккаунт!\nВыберите тариф для покупки:')
+
         elif message.text == '💸Donate':
-            bot.send_message(message.chat.id, '@yudonate_bot')
+            bot.send_message(message.chat.id, '@yudonat_bot')
+
 
 # ________________________________________________________________________________________
 

@@ -97,7 +97,8 @@ def send_key(message):
 
 @bot.message_handler(commands=['podcast'])
 def podacs_start(message):
-    bot.send_message(message.chat.id, 'Вы еще не активировали код')
+    if str(message.chat.id) not in podcastUsers:
+        bot.send_message(message.chat.id, 'Вы еще не активировали код')
 
 # New post for users_____________________________________________________________________
 # SEND VOICE №25
@@ -110,8 +111,7 @@ def newpost(message):
         #ran = random.choice(list_file)
         try:
             bot.send_audio(i, au,
-                           "<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(
-                               message.from_user, bot.get_me()), parse_mode='html')
+                           "<a href=\'http://t.me/yupgrade_bot\'>© Твой Апгрейд ♥</a> \n\nПоделись с друзьями 🥺".format(message.from_user, bot.get_me()), parse_mode='html')
 
             print("Сообщение успешно отправлено", message.chat.id, message.chat.first_name, message.chat.last_name, message.chat.username)
         except:
@@ -131,11 +131,18 @@ def newpost(message):
 def buttons(message):
     if message.chat.type == 'private':
         if message.text == '😎VIP':
-            for i in podcastUsers:
-                if message.chat.id == i:
-                    bot.send_message(message.chat.id, 'Ваш аккаунт уже зарегестрирован!')
-                else:
-                    bot.send_message(message.chat.id, 'У вас еще не имеется премиум аккаунт!\nВыберите тариф для покупки:')
+            if str(message.chat.id) not in podcastUsers:
+                bot.send_message(message.chat.id, 'У вас еще не имеется премиум аккаунт!\nВыберите тариф для покупки:')
+                button_test = 'Бесплатно'
+                button_week = 'Неделя'
+                button_month = 'Месяц'
+                button_year = 'Год'
+                button_premium = 'ПРЕМИУМ'
+
+            else:
+                bot.send_message(message.chat.id, 'Ваш аккаунт уже зарегестрирован!')
+
+
 
         elif message.text == '💸Donate':
             bot.send_message(message.chat.id, '@yudonat_bot')

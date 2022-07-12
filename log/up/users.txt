@@ -27,3 +27,5 @@
 2022-07-06 22:34:16.010171 | ID: 1055852189 | Name: Нематова Рухсора | Last name: None | Username: @None 
 2022-07-06 23:58:12.736770 | ID: 1133253625 | Name: М.М.Мирсодиков | Last name: None | Username: @M_M_Mirsodikov 
 2022-07-07 00:15:17.015765 | ID: 2058840404 | Name: Davron | Last name: None | Username: @None 
+2022-07-12 16:44:33.154287 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
+2022-07-12 16:45:37.078261 | ID: 2049213530 | Name: Fazliddin | Last name: Saidov | Username: @Fazliddin_Saidov1 

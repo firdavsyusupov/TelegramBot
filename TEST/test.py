@@ -132,20 +132,34 @@ def buttons(message):
     if message.chat.type == 'private':
         if message.text == '😎VIP':
             if str(message.chat.id) not in podcastUsers:
-                bot.send_message(message.chat.id, 'У вас еще не имеется премиум аккаунт!\nВыберите тариф для покупки:')
-                button_test = 'Бесплатно'
-                button_week = 'Неделя'
-                button_month = 'Месяц'
-                button_year = 'Год'
-                button_premium = 'ПРЕМИУМ'
+                markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+                button_test = '🆓Бесплатно'
+                button_week = '📅Неделя'
+                button_month = '📆Месяц'
+                button_year = '🗓Год'
+                button_premium = '💎ПРЕМИУМ'
+                button_back = '🔙Назад'
+                markup.add(button_test, button_week, button_month, button_year, button_premium, button_back)
+                bot.send_message(message.chat.id, 'У вас еще не имеется премиум аккаунт!\n\nВыберите тариф для покупки:', reply_markup=(markup))
 
             else:
                 bot.send_message(message.chat.id, 'Ваш аккаунт уже зарегестрирован!')
 
-
-
         elif message.text == '💸Donate':
             bot.send_message(message.chat.id, '@yudonat_bot')
+
+@bot.message_handler(content_types=['text'])
+def buttons_back(message):
+    if message.chat.type == 'private':
+        if message.text == '🔙Назад':
+            markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+            button_vip = '😎VIP'
+            button_donate = '💸Donate'
+            markup.add(button_vip, button_donate)
+            bot.send_message(message.chat.id, 'Вы вернулись назад', reply_markup='markup')
+
+
+
 
 
 # ________________________________________________________________________________________

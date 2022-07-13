@@ -18,9 +18,9 @@ def start(message):
 # Buttons
     start_b = types.KeyboardButton('💳 Uzcard')
     start_b1 = types.KeyboardButton('📲 Click')
-    start_b2 = types.KeyboardButton('👨‍💻 Programmers')
+    #start_b2 = types.KeyboardButton('👨‍💻 Programmers')
     start_b3 = types.KeyboardButton('🔝 Other')
-    markup.add(start_b, start_b1, start_b2, start_b3)
+    markup.add(start_b, start_b1,  start_b3)
     bot.send_photo(message.chat.id, photo_start, "Привет, {0.first_name}!\n\n<b>Upgrade Донат</b> - это бот, в котором Вы сможете поддержать наш проект финансово 💸\n\nВсе ваши донаты пойдут на новое оборудование и на расширение наших проектов 🔥\n\nКуда хотите сделать перевод? 🔍".format(message.from_user), parse_mode='html', reply_markup = markup)
     if not str(message.chat.id) in joinedUsers:
         joinedFile = open("log/dup/joined.txt", "a")
@@ -45,10 +45,11 @@ def buttons(message):
             qr_click = open('info/image/click.jpg', 'rb')
             bot.send_photo(message.chat.id, qr_click, "Чтобы удобно перевести деньги через CLICK нам на карту, Вы можете:\n- отсканировать QR-код приложением CLICK Evolution\n- отправить это сообщение в Telegram-бот @clickuz\n- пройти по ссылке ниже\n\nПолучатель: YUSUPOV FIRDAVS\nМоя карта: AAB***7453 (UZCARD)\n\nhttps://my.click.uz/clickp2p/F907B946693836900BD2EA6E807F9AA68BE12EBB46F1866D0EB96661599623DD")
 
-            #bot.send_message(message.chat.id, '🗃 Projects', reply_markup = markup)
+        # elif message.text == '👨‍💻 Programmers':
+        #     bot.send_message(message.cha.id, 'В разработке...'.format(message.from_user), parse_mode='html')
 
         elif message.text == '🔝 Other':
-            bot.send_message(message.chat.id, '<b>Упс...</b> 😬/n/nЕсли Вы не нашли подходящий способ для перевода, напишите мне в ЛС — <a href="https://t.me/firdavs_yusupov">@firdavs_yusupov</a>'.format(message.from_user), parse_mode='html')
+            bot.send_message(message.chat.id, '<b>Упс...</b> 😬\n\nЕсли Вы не нашли подходящий способ для перевода, напишите мне в ЛС — <a href="https://t.me/firdavs_yusupov">@firdavs_yusupov</a>'.format(message.from_user), parse_mode='html')
 
 
 

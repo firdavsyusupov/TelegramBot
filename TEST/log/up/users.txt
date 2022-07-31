@@ -59,4 +59,3 @@
 2022-07-12 12:43:34.020755 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
 2022-07-12 14:49:02.614460 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
 2022-07-12 14:49:57.202227 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-13 08:50:20.152838 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 

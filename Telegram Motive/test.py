@@ -14,14 +14,14 @@ joinedFile.close()
 
 podcastFile = open('log/id.txt', 'tb')
 podcastUsers = set()
-for i in podcastFile: 
+for i in podcastFile:
     podcastUsers.add(i.strip())
 podcastFile.close()
 
 # GREETING
 @bot.message_handler(commands=['start'])
 def welcome(message):
-    au = open('info/start.ogg', 'rb')   b
+    au = open('info/start.ogg', 'rb')
     bot.send_audio(message.chat.id, au,
                    "{0.first_name}, если ты услышал(а) это приветствие, значит начиная со следующего, ты будешь ежедневно получать обещанные послания в формате голосовых сообщений 🎧\n\n<b>Как только я запишу что-то новое, я обязательно тебе отправлю</b> 😊".format(
                        message.from_user, bot.get_me()), parse_mode='html')

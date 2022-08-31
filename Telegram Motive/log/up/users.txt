@@ -1,48 +1,33 @@
-2022-06-20 21:57:38.194607 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @site_com_uz_official 
-2022-06-24 06:02:29.977251 | ID: 1437053361 | Name: Мадина | Last name: None | Username: @madinella_05 
-2022-06-25 05:47:00.185721 | ID: 157674392 | Name: Руслан | Last name: None | Username: @Hdtshdjd 
+п»ї2022-06-20 21:57:38.194607 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @site_com_uz_official 
+2022-06-24 06:02:29.977251 | ID: 1437053361 | Name: пїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @madinella_05 
+2022-06-25 05:47:00.185721 | ID: 157674392 | Name: пїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @Hdtshdjd 
 2022-06-25 17:24:45.768012 | ID: 1784921501 | Name: Abdulaziz | Last name: Orifjonov | Username: @Abdulaziz_Orifjonov 
-2022-06-25 22:03:56.274204 | ID: 1687962402 | Name: баскетбол лоукигом | Last name: None | Username: @Diiormsff 
+2022-06-25 22:03:56.274204 | ID: 1687962402 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @Diiormsff 
 2022-06-30 07:53:51.888421 | ID: 5267200706 | Name: Mister.A | Last name: None | Username: @None 
 2022-06-30 15:42:57.068497 | ID: 5484150684 | Name: A.Javlon | Last name: None | Username: @None 
-2022-07-02 07:55:11.833647 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-06 11:34:20.593747 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-06 11:38:24.612388 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-06 11:39:18.620872 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-06 13:56:07.939954 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-06 16:34:37.611707 | ID: 5529812448 | Name: AKBARSHTERN | Last name: None | Username: @akbarshtern 
-2022-07-06 16:34:38.099367 | ID: 5529812448 | Name: AKBARSHTERN | Last name: None | Username: @akbarshtern 
-2022-07-06 16:34:38.429580 | ID: 5529812448 | Name: AKBARSHTERN | Last name: None | Username: @akbarshtern 
-2022-07-06 16:34:40.650670 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-06 16:34:41.043177 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
+2022-07-02 07:55:11.833647 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov
+2022-07-06 16:34:37.611707 | ID: 5529812448 | Name: AKBARSHTERN | Last name: None | Username: @akbarshtern
 2022-07-06 16:58:01.631502 | ID: 760353974 | Name: Tim | Last name: None | Username: @TSh1080 
 2022-07-06 21:38:54.443530 | ID: 980213945 | Name: ABDURAUF | Last name: None | Username: @Abdurauf_23 
-2022-07-06 21:40:52.652843 | ID: 575148251 | Name: Удалённый аккаунт | Last name: None | Username: @fathullalatipov 
-2022-07-06 21:41:34.105844 | ID: 575148251 | Name: Удалённый аккаунт | Last name: None | Username: @fathullalatipov 
-2022-07-06 21:41:57.956143 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
+2022-07-06 21:40:52.652843 | ID: 575148251 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @fathullalatipov
 2022-07-06 21:46:03.183088 | ID: 1952517307 | Name: Rauf | Last name: None | Username: @medgarskiy_023 
 2022-07-06 21:46:49.356019 | ID: 1084184991 | Name: Tot samiy | Last name: None | Username: @faik_23 
 2022-07-06 21:47:05.446971 | ID: 5529993186 | Name: . | Last name: None | Username: @ablcik1 
 2022-07-06 21:49:36.491952 | ID: 5281162044 | Name: Ziyodulla | Last name: None | Username: @Kholmamatov_01 
-2022-07-06 22:34:16.010171 | ID: 1055852189 | Name: Нематова Рухсора | Last name: None | Username: @None 
-2022-07-06 23:58:12.736770 | ID: 1133253625 | Name: М.М.Мирсодиков | Last name: None | Username: @M_M_Mirsodikov 
+2022-07-06 22:34:16.010171 | ID: 1055852189 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @None 
+2022-07-06 23:58:12.736770 | ID: 1133253625 | Name: пїЅ.пїЅ.пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @M_M_Mirsodikov 
 2022-07-07 00:15:17.015765 | ID: 2058840404 | Name: Davron | Last name: None | Username: @None 
-2022-07-08 03:40:50.081860 | ID: 1684997724 | Name: _murod_grst_ | Last name: None | Username: @murodjon0503 
-2022-07-09 13:21:41.337732 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
+2022-07-08 03:40:50.081860 | ID: 1684997724 | Name: _murod_grst_ | Last name: None | Username: @murodjon0503
 2022-07-09 13:21:52.906575 | ID: 760353974 | Name: Tim | Last name: None | Username: @TSh1080 
 2022-07-09 13:21:59.530032 | ID: 990817428 | Name: //It's me// | Last name: None | Username: @None 
-2022-07-09 13:45:27.656235 | ID: 1437053361 | Name: Мадина | Last name: None | Username: @madinella_05 
+2022-07-09 13:45:27.656235 | ID: 1437053361 | Name: пїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @madinella_05 
 2022-07-09 13:49:55.351489 | ID: 980213945 | Name: ABDURAUF | Last name: None | Username: @Abdurauf_23 
-2022-07-09 21:12:32.419811 | ID: 1004308494 | Name: Farangiz | Last name: None | Username: @None 
-2022-07-10 11:33:57.390646 | ID: 1004308494 | Name: Farangiz | Last name: None | Username: @None 
+2022-07-09 21:12:32.419811 | ID: 1004308494 | Name: Farangiz | Last name: None | Username: @None
 2022-07-10 14:25:02.762356 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov 
-2022-07-10 15:12:30.393694 | ID: 1133253625 | Name: М.М.Мирсодиков | Last name: None | Username: @M_M_Mirsodikov 
-2022-07-10 16:14:36.074431 | ID: 5086008465 | Name: D | Last name: None | Username: @None 
-2022-07-10 16:15:16.921880 | ID: 5086008465 | Name: D | Last name: None | Username: @None 
-
-2022-07-12 16:45:37.078261 | ID: 2049213530 | Name: Fazliddin | Last name: Saidov | Username: @Fazliddin_Saidov1 
-
-2022-07-13 13:49:37.620978 | ID: 1542462695 | Name: Евгений | Last name: None | Username: @eleonov1 
+2022-07-10 15:12:30.393694 | ID: 1133253625 | Name: пїЅ.пїЅ.пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @M_M_Mirsodikov 
+2022-07-10 16:14:36.074431 | ID: 5086008465 | Name: D | Last name: None | Username: @None
+2022-07-12 16:45:37.078261 | ID: 2049213530 | Name: Fazliddin | Last name: Saidov | Username: @Fazliddin_Saidov1
+2022-07-13 13:49:37.620978 | ID: 1542462695 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @eleonov1 
 2022-07-13 15:51:48.511686 | ID: 5323243333 | Name: Abdulhay | Last name: None | Username: @abdulhay22 
 2022-07-14 06:59:11.438309 | ID: 1189759756 | Name: Suxrobjon Isroilov | Last name: None | Username: @Isroilov_Suxrobjon 
 2022-07-23 13:00:16.027345 | ID: 5183043034 | Name: Nurmuhammad | Last name: None | Username: @nur_muhammadov1ch 
@@ -52,9 +37,14 @@
 2022-07-25 17:37:47.144154 | ID: 892766215 | Name: Ibrohim Musayev | Last name: None | Username: @ibrohim_musayev 
 2022-07-25 17:35:02.421645 | ID: 5169214745 | Name: Yusufkhan | Last name: None | Username: @Yusufkxan_9439 
 2022-07-28 16:09:13.198746 | ID: 534487243 | Name: Javohir | Last name: None | Username: @Ibnkamol 
-2022-07-31 23:09:31.862922 | ID: 85113302 | Name: 8М | Last name: None | Username: @yusuf8m 
-2022-07-31 23:09:32.020024 | ID: 85113302 | Name: 8М | Last name: None | Username: @yusuf8m 
-2022-07-31 23:09:32.416289 | ID: 85113302 | Name: 8М | Last name: None | Username: @yusuf8m 
+2022-07-31 23:09:31.862922 | ID: 85113302 | Name: 8пїЅ | Last name: None | Username: @yusuf8m
 2022-08-02 08:01:27.191086 | ID: 5119494814 | Name: C3 | Last name: None | Username: @None 
-2022-08-03 17:41:47.411776 | ID: 515253224 | Name: РУСТАМБЕК АКА | Last name: None | Username: @Rustambek_Ergashev 
+2022-08-03 17:41:47.411776 | ID: 515253224 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ | Last name: None | Username: @Rustambek_Ergashev 
 2022-08-04 06:40:24.729192 | ID: 1701864873 | Name: Nurmatov | Last name: None | Username: @None 
+2022-08-07 16:11:30.900088 | ID: 5009464612 | Name: Salohiddin | Last name: None | Username: @salohiddin_dev
+2022-08-14 15:22:23.997415 | ID: 1416685412 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ_044 | Last name: None | Username: @Bintu_Gulom 
+2022-08-14 20:35:45.002441 | ID: 1255028179 | Name: ZAFAR | Last name: None | Username: @None 
+2022-08-17 09:05:43.269925 | ID: 1758418110 | Name: Firdavs | Last name: Yusupov | Username: @firdavs_yusupov
+2022-08-21 13:33:06.946846 | ID: 1298129102 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: None | Username: @None 
+2022-08-21 18:04:37.411553 | ID: 613205199 | Name: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ | Last name: пїЅпїЅпїЅпїЅпїЅ | Username: @None 
+2022-08-27 20:33:42.603351 | ID: 1118610700 | Name: пїЅ@пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ@ | Last name: None | Username: @None 

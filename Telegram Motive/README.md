@@ -2,23 +2,23 @@
 ***
 
 ## Task
- A telegram bot that sends an audio message every 24 hours every day.
+This telegram-bot(http://t.me/yupgrade), send voice message everyday. This bot motivate you everyday
 
 ## Description
- This bot sends an audio message every 24 hours. The audio message should be saved in the "info" folder, as well as each audio file should be named by numbers from 1 to N numbers.
+TODO - How have you solved the problem?
 
 ## Installation
--#-#-#-#-#-#-just in case-#-#-#-#-#-#-
+!!!!!
 pip uninstall telebot
 pip uninstall pyTelegramBotAPI
--#-#-#-#-#-#-just in case-#-#-#-#-#-#-
+!!!!!
 pip install telebot
 pip install pyTelegramBotAPI
 
 ## Usage
 TODO - How does it work?
 ```
-python name_file.py
+./my_project argument1 argument2
 ```
 
 ### The Core Team
